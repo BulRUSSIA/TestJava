@@ -14,7 +14,6 @@ public class FileConverter implements IFileConverter {
         try {
             String sourceDir = filepatch + filename; // Pdf files are read from this folder
             String destinationDir = filepatch+ "JPG\\"; // converted images from pdf document are saved here
-
             File sourceFile = new File(sourceDir);
             File destinationFile = new File(destinationDir);
             if (!destinationFile.exists()) {
@@ -25,20 +24,20 @@ public class FileConverter implements IFileConverter {
 //                System.out.println("Images copied to Folder: "+ destinationFile.getName());
                 PDDocument document = PDDocument.load(sourceDir);
                 List<PDPage> list = document.getDocumentCatalog().getAllPages();
-                System.out.println("Total files to be converted -> "+ list.size());
+                System.out.println("Всего файлов сконвертировано -> "+ list.size());
                 String fileName = sourceFile.getName().replace(".pdf", "");
                 int pageNumber = 1;
                 for (PDPage page : list) {
                     BufferedImage image = page.convertToImage();
                     File outputfile = new File( destinationDir + fileName + "_"+ pageNumber +".jpg");
-                    System.out.println("Image Created -> "+ outputfile.getName());
+                    System.out.println("Изображение создано -> "+ outputfile.getName());
                     ImageIO.write(image, "jpg", outputfile);
                     pageNumber++;
                 }
                 document.close();
-                System.out.println("Converted Images are saved at -> "+ destinationFile.getAbsolutePath());
+                System.out.println("Сохраняем сконвертированное изображение -> "+ destinationFile.getAbsolutePath());
             } else {
-                System.err.println(sourceFile.getName() +" File not exists");
+                System.err.println(sourceFile.getName() +"File not exists");
             }
 
         } catch (Exception e) {
