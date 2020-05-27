@@ -13,8 +13,12 @@
           <root url="jar://$USER_HOME$/Downloads/spire.pdf.free-2.6.4.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/spire.pdf.free-2.6.4.jar!/com" />
+        </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="JAVA" level="project" />
+    <orderEntry type="library" name="org.apache.pdfbox:pdfbox:1.8.3" level="project" />
   </component>
 </module>

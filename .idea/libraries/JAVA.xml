@@ -1,0 +1,50 @@
+<component name="libraryTable">
+  <library name="JAVA">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/AddImageTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/AnnotationTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/BookmarkTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/CAD2PDFTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ContentReplacerTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ConvertTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/DigitalSignaturesTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ElementBuilderTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ElementEditTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ElementReaderAdvTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ElementReaderTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/EncTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/FDFTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/HTML2PDFTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ImageExtractTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/ImpositionTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/InteractiveFormsTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/JBIG2Test/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/LogicalStructureTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/OCRTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/OfficeToPDFTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/OptimizerTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFATest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFDocMemoryTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFDrawTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFLayersTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFPackageTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFPageTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFPrintTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFRedactTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PDFViewTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PageLabelsTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/PatternTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/RectTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/SDFTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/StamperTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/TextExtractTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/TextSearchTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/U3DTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/UndoRedoTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/UnicodeWriteTest/JAVA" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetC64/PDFNetC64/Samples/WebViewerConvertTest/JAVA" />
+    </SOURCES>
+  </library>
+</component>

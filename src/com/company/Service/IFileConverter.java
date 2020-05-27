@@ -1,10 +1,9 @@
 package com.company.Service;
 
-import java.io.File;
+import java.io.IOException;
 
 public interface IFileConverter {
 
-    public <T> File Convert(File sourceFile);
+    void Convert(String sourceFile,String filename) throws IOException;
 
 }
-/**/
