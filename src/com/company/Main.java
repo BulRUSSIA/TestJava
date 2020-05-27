@@ -2,12 +2,11 @@ package com.company;
 
 
 public class Main {
+    public static int TIME = 5;
 
-    public String catalog = "";
+    public  static void main(String[] args) {
+        SchedulerScanDirectory scheduler = new SchedulerScanDirectory(TIME);
 
-
-    public static void main(String[] args) {
-        System.out.println("hello world");
 
     }
 }
