@@ -1,7 +1,6 @@
 package com.company.Service;
 
 import com.company.Models.FileExtensions;
-
 import java.io.File;
 import java.util.Objects;
 
@@ -17,11 +16,13 @@ public class DirectoryScanner {
 
         try {
             File dir = new File(directory);
+            //todo проверять все вложенные каталоги
             if (dir.isDirectory()) {
                 // получаем все вложенные объекты в каталоге
                 for (File item : Objects.requireNonNull(dir.listFiles())) {
                     if (item.isDirectory()) {
                         System.out.println(item.getName() + "  \t folder");
+
                     } else {
                         String ext = getFileExtension(item);
                         FileExtensions found_ext = asMyEnum(ext);
