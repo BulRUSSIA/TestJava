@@ -6,49 +6,36 @@ import java.util.Objects;
 
 //todo Сканирование и нахождение файлов
 public class DirectoryScanner {
-
     FileConverter fileconverter;
-
     public DirectoryScanner() {
         fileconverter = new FileConverter();
     }
     public void scan(String directory) {
-
         try {
             File dir = new File(directory);
-            //todo проверять все вложенные каталоги
             if (dir.isDirectory()) {
                 // получаем все вложенные объекты в каталоге
                 for (File item : Objects.requireNonNull(dir.listFiles())) {
-                    if (item.isDirectory()) {
-                        System.out.println(item.getName() + "  \t folder");
-
-                    } else {
+                    if (item.isFile()) {
                         String ext = getFileExtension(item);
                         FileExtensions found_ext = asMyEnum(ext);
                         if (found_ext != null) {
-                            System.out.println("find enum\t" + found_ext);
                             switch (found_ext) {
                                 case PDF:
                                     fileconverter.Convert(directory,item.getName());
                                     break;
                                 case JPG:
                                     break;
-
                             }
                         }
-
                     }
                 }
             }
-
         }
-
         catch (Exception e) {
             e.printStackTrace();
         }
     }
-
     // сравниваем тип с enum
     private FileExtensions asMyEnum(String filename) {
         for (FileExtensions ext : FileExtensions.values()) {

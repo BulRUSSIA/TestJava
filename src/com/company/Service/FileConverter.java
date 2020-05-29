@@ -12,16 +12,19 @@ public class FileConverter implements IFileConverter {
     @Override
     public  void Convert(String filepatch, String filename) {
         try {
-            String sourceDir = filepatch + filename; // Pdf files are read from this folder
-            String destinationDir = filepatch+ "JPG\\"; // converted images from pdf document are saved here
+            String sourceDir = filepatch + "\\" +filename;
+            System.out.println(sourceDir);// Читаем pdf из заданной директории
+            String destinationDir = filepatch+ "\\JPG\\"; // Сохраняем конвертированный pdf  в заданную директорию
             File sourceFile = new File(sourceDir);
             File destinationFile = new File(destinationDir);
-            if (!destinationFile.exists()) {
+            if (!destinationFile.exists()) { //Проверяем наличие папки для сохранения
                 destinationFile.mkdir();
-                System.out.println("Folder Created -> "+ destinationFile.getAbsolutePath());
+                System.out.println("Папка создана-> "+ destinationFile.getAbsolutePath());
             }
-            if (sourceFile.exists()) {
-//                System.out.println("Images copied to Folder: "+ destinationFile.getName());
+            System.out.println(sourceFile);
+            if (sourceFile.exists()) { //Проверяем наличие файла в заданной директории
+
+                //Логика работы с документом
                 PDDocument document = PDDocument.load(sourceDir);
                 List<PDPage> list = document.getDocumentCatalog().getAllPages();
                 System.out.println("Всего файлов сконвертировано -> "+ list.size());
@@ -37,7 +40,7 @@ public class FileConverter implements IFileConverter {
                 document.close();
                 System.out.println("Сохраняем сконвертированное изображение -> "+ destinationFile.getAbsolutePath());
             } else {
-                System.err.println(sourceFile.getName() +"File not exists");
+                System.err.println(sourceFile.getName() + "Файл не найден");
             }
 
         } catch (Exception e) {

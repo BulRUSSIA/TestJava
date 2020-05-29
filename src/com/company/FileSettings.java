@@ -1,8 +1,8 @@
 package com.company;
 
 public class FileSettings {
-	private static final String PATCH_TO_PDF = "C:\\Users\\Professional\\IdeaProjects\\TestProj\\";
-	public static String GetPatch() {
-		return PATCH_TO_PDF;
+	private static final String PATH_TO_PDF = "C:\\Users\\Professional\\IdeaProjects\\TestProj\\TestPath\\";
+	public static String GetPath() {
+		return PATH_TO_PDF;
 	}
 }
