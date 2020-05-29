@@ -4,7 +4,6 @@ import com.company.Models.FileExtensions;
 import java.io.File;
 import java.util.Objects;
 
-//todo Сканирование и нахождение файлов
 public class DirectoryScanner {
     FileConverter fileconverter;
     public DirectoryScanner() {
