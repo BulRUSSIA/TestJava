@@ -5,4 +5,5 @@ public class FileSettings {
 	public static String GetPath() {
 		return PATH_TO_PDF;
 	}
+
 }

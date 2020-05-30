@@ -31,12 +31,15 @@ public class AllScanner {
 		final String path = FileSettings.GetPath();
 		ArrayList<String> res;
 		res = new ArrayList<>();
+		res.add(path);
 
 		try {
 			listAll(path, res);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
+		 System.out.println(res);
 
 		for (String s : res) {
 			scanner.scan(s);
